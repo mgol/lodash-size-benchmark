@@ -1,0 +1,3 @@
+```dash
+npm run build
+```
