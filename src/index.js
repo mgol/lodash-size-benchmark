@@ -27,11 +27,15 @@
 //  * Lodash-es
 //  */
 
-//  import * as _ from 'lodash-es'; // 97.17 kb
+// import * as _ from 'lodash-es'; // 97.17 kb
+// console.log(_);
 
-import { times } from 'lodash-es'; // 97.17kB  :(, No difference with above
+import { map, filter } from 'lodash-es'; // 17.05 kb
+console.log(map, filter);
+
+// import { times } from 'lodash-es'; // 97.17kB  :(, No difference with above
 // import times from 'lodash/times' //  2.08 kB! :), Does only import times function
-times(3, () => console.log('whee'));
+// times(3, () => console.log('whee'));
 
 // import map from 'lodash-es/map'; // 15.15 kb
 // map([1, 2, 3], (x) => 2 * x);
