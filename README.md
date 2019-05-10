@@ -1,3 +1,3 @@
 ```dash
-npm run build
+yarn build
 ```
